@@ -1,7 +1,7 @@
 # RetroWave v1.0 — build notes, caveats, and how to run
 
 A vintage-cabinet internet radio player for macOS 13+, built with SwiftUI and
-AVFoundation. Five country skins, 33 stations across 12 cities, every stream
+AVFoundation. Five country skins, 31 stations across 12 cities, every stream
 verified live before shipping.
 
 ---
@@ -108,10 +108,11 @@ static lighting).
 
 ## 3. Stations — what shipped and what did not
 
-**All 33 shipped URLs were verified live** — the original 25 during
+**All 31 shipped URLs were verified live** — the original 25 during
 selection and again as a final sweep on 2026-09-26 (`LIVE` for 25/25), and the
 eight Mexican streams on 2026-10-04 (ranged GET, HTTP 200/206, audio sync
-bytes received).
+bytes received). Two verified stations (KUSC 91.9 US, La Ke Buena 92.9 MX)
+were later removed to keep the station band inside the window width.
 
 Source: the **radio-browser.info** open directory (`de1.api.radio-browser.info`),
 which aggregates community Icecast/Shoutcast listings. Stream URLs in
@@ -119,11 +120,11 @@ which aggregates community Icecast/Shoutcast listings. Stream URLs in
 
 | Country | Locations | Stations |
 |---|---|---|
-| 🇺🇸 US | New York (3), Los Angeles (3), Miami (4), San Francisco (3) | 13 |
+| 🇺🇸 US | New York (3), Los Angeles (2), Miami (4), San Francisco (3) | 12 |
 | 🇫🇷 FR | Paris (3), Marseille (3) | 6 |
 | 🇿🇦 ZA | Johannesburg / Cape Town (3) | 3 |
 | 🇨🇳 CN | Beijing & Shanghai (3) | 3 |
-| 🇲🇽 MX | Mexico City (5), Guadalajara (1), Monterrey (1), Hermosillo (1) | 8 |
+| 🇲🇽 MX | Mexico City (4), Guadalajara (1), Monterrey (1), Hermosillo (1) | 7 |
 
 ### Candidates that were rejected
 
@@ -271,7 +272,7 @@ RetroWave/
 │   ├── Station.swift           # Station, StationLibrary, JSON loader
 │   ├── Country.swift           # Country enum + display metadata
 │   ├── AppModel.swift          # selected skin/station, UserDefaults persistence
-│   └── stations.json           # 33 verified streams
+│   └── stations.json           # 31 verified streams
 ├── Audio/
 │   ├── RadioPlayer.swift       # AVPlayer, buffering, ICY, retry, persistence
 │   └── SoundEffects.swift      # runtime-synthesised WAV click + static

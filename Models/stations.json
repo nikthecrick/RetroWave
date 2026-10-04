@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generated": "2026-10-04",
-  "source": "radio-browser.info open directory; every URL verified live via a ranged GET (HTTP 200/206, audio sync bytes received) on 2026-09-26; the eight MX streams were verified the same way on 2026-10-04.",
+  "source": "radio-browser.info open directory; every URL verified live via a ranged GET (HTTP 200/206, audio sync bytes received) on 2026-09-26; the seven MX streams were verified the same way on 2026-10-04.",
   "countries": [
     {
       "code": "US",
@@ -50,17 +50,6 @@
           "city": "Los Angeles",
           "country": "Los Angeles",
           "stations": [
-            {
-              "id": "us-los-angeles-kusc-91-9",
-              "name": "KUSC 91.9",
-              "city": "Los Angeles",
-              "region": "CA",
-              "countryCode": "US",
-              "genre": "classical",
-              "bitrateKbps": 96,
-              "streamURL": "https://18443.live.streamtheworld.com/KUSCMP96_SC",
-              "frequency": 91.9
-            },
             {
               "id": "us-los-angeles-kcrw-88-9",
               "name": "KCRW 88.9",
@@ -401,17 +390,6 @@
               "bitrateKbps": 32,
               "streamURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/XEPHAMAAC.aac",
               "frequency": 103.3
-            },
-            {
-              "id": "mx-mexico-city-la-ke-buena-92-9",
-              "name": "La Ke Buena 92.9",
-              "city": "Mexico City",
-              "region": "CDMX",
-              "countryCode": "MX",
-              "genre": "reggaetón & urbano",
-              "bitrateKbps": 128,
-              "streamURL": "https://streaming.servicioswebmx.com/8218/stream",
-              "frequency": 92.9
             }
           ]
         },

@@ -3,7 +3,7 @@
 A vintage-cabinet internet radio for macOS, built entirely with SwiftUI and
 AVFoundation — no Xcode project, no asset catalog, no bitmap art. Every
 texture is painted procedurally, and the app ships **five country skins**
-and **33 live stations across 12 cities**, plus a 300×80 mini player.
+and **31 live stations across 12 cities**, plus a 300×80 mini player.
 
 <table>
   <tr>
