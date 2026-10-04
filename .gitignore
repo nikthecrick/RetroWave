@@ -6,3 +6,6 @@ build/
 
 # Build scratch: logs, offscreen-preview binaries, rendered skin PNGs
 .build/
+
+# AI session artifacts
+.opencode/
