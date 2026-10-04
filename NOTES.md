@@ -225,6 +225,13 @@ Roughly a dozen candidate endpoints turned out to be dead or unusable and were
 * **Extra 26 pt bottom inset** on the panel so the Ndebele and Chinese fretwork
   borders, which are painted along the cabinet edge, do not sit under the
   country buttons.
+* **The window backdrop follows the skin.** With `.windowStyle(.hiddenTitleBar)`
+  the cabinet fills the whole window, but the AppKit backdrop still shows
+  through at the cabinet's 14 pt rounded corners and in the ring around its
+  drop shadow — default grey, which clashed with every skin. The
+  `WindowAccessor` closure therefore sets
+  `window.backgroundColor = NSColor(theme.cabinetBottom)` on every update, so
+  the edges read as the cabinet finish instead of a grey plate.
 * **Dual ICY metadata path.** The primary path is
   `AVPlayerItemMetadataOutput`, which surfaces ICY tags natively without a
   second connection. A fallback issues a raw `URLSession` request with

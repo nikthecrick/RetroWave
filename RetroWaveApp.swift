@@ -27,6 +27,11 @@ struct RetroWaveApp: App {
                 .background(WindowAccessor { window in
                     AppState.shared.window = window
                     applySize(window, mini: model.isMiniPlayer)
+                    // The hidden title bar leaves the window backdrop visible
+                    // at the cabinet's rounded corners and around its drop
+                    // shadow — set it to the skin's cabinet tone so the
+                    // edges read as the cabinet, not default grey.
+                    window.backgroundColor = NSColor(model.theme.cabinetBottom)
                 })
                 .frame(width: model.isMiniPlayer ? 300 : 800,
                        height: model.isMiniPlayer ? 80 : 520)
