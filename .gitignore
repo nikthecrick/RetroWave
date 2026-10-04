@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Build output (rebuild with ./build.sh)
+build/
+
+# Build scratch: logs, offscreen-preview binaries, rendered skin PNGs
+.build/

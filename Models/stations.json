@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "generated": "2026-10-04",
+  "source": "radio-browser.info open directory; every URL verified live via a ranged GET (HTTP 200/206, audio sync bytes received) on 2026-09-26; the eight MX streams were verified the same way on 2026-10-04.",
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States",
+      "locations": [
+        {
+          "city": "New York",
+          "country": "New York",
+          "stations": [
+            {
+              "id": "us-new-york-walm-classic-vinyl-hd",
+              "name": "WALM Classic Vinyl HD",
+              "city": "New York",
+              "region": "NY",
+              "countryCode": "US",
+              "genre": "jazz & swing",
+              "bitrateKbps": 320,
+              "streamURL": "https://icecast.walmradio.com:8443/classic",
+              "frequency": 98.7
+            },
+            {
+              "id": "us-new-york-q104-3-classic-rock",
+              "name": "Q104.3 Classic Rock",
+              "city": "New York",
+              "region": "NY",
+              "countryCode": "US",
+              "genre": "classic rock",
+              "bitrateKbps": 128,
+              "streamURL": "https://stream.revma.ihrhls.com/zc1465",
+              "frequency": 104.3
+            },
+            {
+              "id": "us-new-york-planet-hiphop",
+              "name": "Planet HipHop",
+              "city": "New York",
+              "region": "NY",
+              "countryCode": "US",
+              "genre": "hip-hop",
+              "bitrateKbps": 128,
+              "streamURL": "http://listen.mrg.fm:8100/stream",
+              "frequency": 107.1
+            }
+          ]
+        },
+        {
+          "city": "Los Angeles",
+          "country": "Los Angeles",
+          "stations": [
+            {
+              "id": "us-los-angeles-kusc-91-9",
+              "name": "KUSC 91.9",
+              "city": "Los Angeles",
+              "region": "CA",
+              "countryCode": "US",
+              "genre": "classical",
+              "bitrateKbps": 96,
+              "streamURL": "https://18443.live.streamtheworld.com/KUSCMP96_SC",
+              "frequency": 91.9
+            },
+            {
+              "id": "us-los-angeles-kcrw-88-9",
+              "name": "KCRW 88.9",
+              "city": "Los Angeles",
+              "region": "CA",
+              "countryCode": "US",
+              "genre": "eclectic",
+              "bitrateKbps": 192,
+              "streamURL": "https://streams.kcrw.com/kcrw_mp3",
+              "frequency": 88.9
+            },
+            {
+              "id": "us-los-angeles-mega-96-3",
+              "name": "Mega 96.3",
+              "city": "Los Angeles",
+              "region": "CA",
+              "countryCode": "US",
+              "genre": "latin rock",
+              "bitrateKbps": 128,
+              "streamURL": "https://liveaudio.lamusica.com/LA_KXOL_icy",
+              "frequency": 96.3
+            }
+          ]
+        },
+        {
+          "city": "Miami",
+          "country": "Miami",
+          "stations": [
+            {
+              "id": "us-miami-100-hip-hop-r-b-fm",
+              "name": "100 Hip Hop & R&B FM",
+              "city": "Miami",
+              "region": "FL",
+              "countryCode": "US",
+              "genre": "hip-hop & r&b",
+              "bitrateKbps": 128,
+              "streamURL": "https://streaming.shoutcast.com/100-hip-hop-and-rnb-fm",
+              "frequency": 100.1
+            },
+            {
+              "id": "us-miami-z-92-miami",
+              "name": "Z 92 Miami",
+              "city": "Miami",
+              "region": "FL",
+              "countryCode": "US",
+              "genre": "latin pop",
+              "bitrateKbps": 128,
+              "streamURL": "https://liveaudio.lamusica.com/MIA_WCMQ_icy",
+              "frequency": 92.3
+            },
+            {
+              "id": "us-miami-miami-beach-radio",
+              "name": "Miami Beach Radio",
+              "city": "Miami",
+              "region": "FL",
+              "countryCode": "US",
+              "genre": "hot latin",
+              "bitrateKbps": 128,
+              "streamURL": "https://streaming.radiostreamlive.com/miamibeachradio_devices",
+              "frequency": 97.3
+            },
+            {
+              "id": "us-miami-chilltrax",
+              "name": "Chilltrax",
+              "city": "Miami",
+              "region": "FL",
+              "countryCode": "US",
+              "genre": "chillout & edm",
+              "bitrateKbps": 128,
+              "streamURL": "https://streamssl.chilltrax.com/",
+              "frequency": 101.5
+            }
+          ]
+        },
+        {
+          "city": "San Francisco",
+          "country": "San Francisco",
+          "stations": [
+            {
+              "id": "us-san-francisco-kqed-88-5",
+              "name": "KQED 88.5",
+              "city": "San Francisco",
+              "region": "CA",
+              "countryCode": "US",
+              "genre": "news & talk",
+              "bitrateKbps": 32,
+              "streamURL": "https://streams.kqed.org/kqedradio?onsite=true",
+              "frequency": 88.5
+            },
+            {
+              "id": "us-san-francisco-kalx-90-7",
+              "name": "KALX 90.7",
+              "city": "San Francisco",
+              "region": "CA",
+              "countryCode": "US",
+              "genre": "indie & college",
+              "bitrateKbps": 128,
+              "streamURL": "https://stream.kalx.berkeley.edu:8443/kalx-320.aac",
+              "frequency": 90.7
+            },
+            {
+              "id": "us-san-francisco-deep-space-one",
+              "name": "Deep Space One",
+              "city": "San Francisco",
+              "region": "CA",
+              "countryCode": "US",
+              "genre": "ambient space",
+              "bitrateKbps": 128,
+              "streamURL": "https://ice2.somafm.com/deepspaceone-128-mp3",
+              "frequency": 103.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "locations": [
+        {
+          "city": "Paris",
+          "country": "Paris",
+          "stations": [
+            {
+              "id": "fr-paris-france-inter",
+              "name": "France Inter",
+              "city": "Paris",
+              "region": "Île-de-France",
+              "countryCode": "FR",
+              "genre": "news & talk",
+              "bitrateKbps": 192,
+              "streamURL": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+              "frequency": 88.2
+            },
+            {
+              "id": "fr-paris-radio-nova",
+              "name": "Radio Nova",
+              "city": "Paris",
+              "region": "Île-de-France",
+              "countryCode": "FR",
+              "genre": "electro",
+              "bitrateKbps": 128,
+              "streamURL": "https://novazz.ice.infomaniak.ch/novazz-128.mp3",
+              "frequency": 89.1
+            },
+            {
+              "id": "fr-paris-tsf-jazz",
+              "name": "TSF Jazz",
+              "city": "Paris",
+              "region": "Île-de-France",
+              "countryCode": "FR",
+              "genre": "jazz",
+              "bitrateKbps": 128,
+              "streamURL": "https://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3",
+              "frequency": 91.3
+            }
+          ]
+        },
+        {
+          "city": "Marseille",
+          "country": "Marseille",
+          "stations": [
+            {
+              "id": "fr-marseille-radio-star",
+              "name": "Radio Star",
+              "city": "Marseille",
+              "region": "Provence-Alpes-Côte d'Azur",
+              "countryCode": "FR",
+              "genre": "hip-hop & rap",
+              "bitrateKbps": 128,
+              "streamURL": "https://stream.rcs.revma.com/b4yrpwdu7ucwv",
+              "frequency": 92.8
+            },
+            {
+              "id": "fr-marseille-mistral-fm",
+              "name": "Mistral FM",
+              "city": "Marseille",
+              "region": "Provence-Alpes-Côte d'Azur",
+              "countryCode": "FR",
+              "genre": "world music",
+              "bitrateKbps": 128,
+              "streamURL": "https://mistralfmaubagne.ice.infomaniak.ch/mistralfmaubagne-128.mp3",
+              "frequency": 95.4
+            },
+            {
+              "id": "fr-marseille-radio-marseillette",
+              "name": "Radio Marseillette",
+              "city": "Marseille",
+              "region": "Provence-Alpes-Côte d'Azur",
+              "countryCode": "FR",
+              "genre": "chanson & world",
+              "bitrateKbps": 128,
+              "streamURL": "https://rcast.pro-fhi.net:9006/stream",
+              "frequency": 99.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "locations": [
+        {
+          "city": "South Africa",
+          "country": "Johannesburg / Cape Town",
+          "stations": [
+            {
+              "id": "za-south-africa-ukhozi-fm",
+              "name": "Ukhozi FM",
+              "city": "Johannesburg / Cape Town",
+              "region": "Gauteng & Western Cape",
+              "countryCode": "ZA",
+              "genre": "afrobeats & township",
+              "bitrateKbps": 64,
+              "streamURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/UKHOZIFMAAC_SC",
+              "frequency": 94.7
+            },
+            {
+              "id": "za-south-africa-kaya-fm-95-9",
+              "name": "Kaya FM 95.9",
+              "city": "Johannesburg / Cape Town",
+              "region": "Gauteng & Western Cape",
+              "countryCode": "ZA",
+              "genre": "world & afro",
+              "bitrateKbps": 64,
+              "streamURL": "https://edge.iono.fm/xice/82_medium.aac",
+              "frequency": 95.9
+            },
+            {
+              "id": "za-south-africa-amapiano-fm",
+              "name": "Amapiano FM",
+              "city": "Johannesburg / Cape Town",
+              "region": "Gauteng & Western Cape",
+              "countryCode": "ZA",
+              "genre": "amapiano",
+              "bitrateKbps": 128,
+              "streamURL": "https://stream.zeno.fm/xs6zeac1ts8uv",
+              "frequency": 100.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "locations": [
+        {
+          "city": "China",
+          "country": "Beijing & Shanghai",
+          "stations": [
+            {
+              "id": "cn-china-cnr-1",
+              "name": "中国之声 CNR-1",
+              "city": "Beijing & Shanghai",
+              "region": "北京 / 上海",
+              "countryCode": "CN",
+              "genre": "news & talk",
+              "bitrateKbps": 64,
+              "streamURL": "https://lhttp.qtfm.cn/live/15318317/64k.mp3",
+              "frequency": 88.4
+            },
+            {
+              "id": "cn-china-fm97-4",
+              "name": "北京音乐广播 FM97.4",
+              "city": "Beijing & Shanghai",
+              "region": "北京 / 上海",
+              "countryCode": "CN",
+              "genre": "mandopop",
+              "bitrateKbps": 64,
+              "streamURL": "https://lhttp.qtfm.cn/live/332/64k.mp3",
+              "frequency": 97.4
+            },
+            {
+              "id": "cn-china-chinese-classical-music",
+              "name": "Chinese Classical Music",
+              "city": "Beijing & Shanghai",
+              "region": "北京 / 上海",
+              "countryCode": "CN",
+              "genre": "traditional",
+              "bitrateKbps": 128,
+              "streamURL": "https://radio.chinesemusicworld.com/chinesemusic.mp3",
+              "frequency": 99.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "locations": [
+        {
+          "city": "Mexico City",
+          "country": "Mexico City",
+          "stations": [
+            {
+              "id": "mx-mexico-city-w-radio",
+              "name": "W Radio",
+              "city": "Mexico City",
+              "region": "CDMX",
+              "countryCode": "MX",
+              "genre": "hits & news",
+              "bitrateKbps": 192,
+              "streamURL": "http://18123.live.streamtheworld.com:3690/W_RADIOAAC_SC",
+              "frequency": 96.9
+            },
+            {
+              "id": "mx-mexico-city-radio-centro-97-7",
+              "name": "Radio Centro 97.7",
+              "city": "Mexico City",
+              "region": "CDMX",
+              "countryCode": "MX",
+              "genre": "news & talk",
+              "bitrateKbps": 128,
+              "streamURL": "http://26283.live.streamtheworld.com:3690/XERC_FMAAC_SC",
+              "frequency": 97.7
+            },
+            {
+              "id": "mx-mexico-city-el-fonografo",
+              "name": "El Fonógrafo",
+              "city": "Mexico City",
+              "region": "CDMX",
+              "countryCode": "MX",
+              "genre": "español oldies",
+              "bitrateKbps": 128,
+              "streamURL": "https://18063.live.streamtheworld.com:443/XEN_AMAAC.aac",
+              "frequency": 91.4
+            },
+            {
+              "id": "mx-mexico-city-sabrosita-590",
+              "name": "Sabrosita 590",
+              "city": "Mexico City",
+              "region": "CDMX",
+              "countryCode": "MX",
+              "genre": "urban & pop",
+              "bitrateKbps": 32,
+              "streamURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/XEPHAMAAC.aac",
+              "frequency": 103.3
+            },
+            {
+              "id": "mx-mexico-city-la-ke-buena-92-9",
+              "name": "La Ke Buena 92.9",
+              "city": "Mexico City",
+              "region": "CDMX",
+              "countryCode": "MX",
+              "genre": "reggaetón & urbano",
+              "bitrateKbps": 128,
+              "streamURL": "https://streaming.servicioswebmx.com/8218/stream",
+              "frequency": 92.9
+            }
+          ]
+        },
+        {
+          "city": "Guadalajara",
+          "country": "Guadalajara",
+          "stations": [
+            {
+              "id": "mx-guadalajara-w-radio",
+              "name": "W Radio",
+              "city": "Guadalajara",
+              "region": "Jalisco",
+              "countryCode": "MX",
+              "genre": "hits & news",
+              "bitrateKbps": 128,
+              "streamURL": "http://26143.live.streamtheworld.com/WRADIO_GDLAAC_SC",
+              "frequency": 100.7
+            }
+          ]
+        },
+        {
+          "city": "Monterrey",
+          "country": "Monterrey",
+          "stations": [
+            {
+              "id": "mx-monterrey-radio-formula",
+              "name": "Radio Fórmula",
+              "city": "Monterrey",
+              "region": "Nuevo León",
+              "countryCode": "MX",
+              "genre": "news & talk",
+              "bitrateKbps": 128,
+              "streamURL": "https://stream.radiojar.com/nk2k3a84xp8uv",
+              "frequency": 104.9
+            }
+          ]
+        },
+        {
+          "city": "Hermosillo",
+          "country": "Hermosillo",
+          "stations": [
+            {
+              "id": "mx-hermosillo-la-mejor-98-5",
+              "name": "La Mejor 98.5",
+              "city": "Hermosillo",
+              "region": "Sonora",
+              "countryCode": "MX",
+              "genre": "regional mexicana",
+              "bitrateKbps": 128,
+              "streamURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHBH_SC",
+              "frequency": 98.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
