@@ -188,14 +188,15 @@ Roughly a dozen candidate endpoints turned out to be dead or unusable and were
 
 * **The station band fills the cabinet — no scrolling.** Buttons are
   flex-width and stretch to fill the row, so every station is visible at
-  once: no chevrons, no drag-scroll, no clipping. Crowded sets (nine or more
-  stations — currently the US set with twelve) switch to a compact engraving
-  (9 pt title / 6.5 pt genre, smaller indicator dot) so they stay legible at
-  narrow button widths; long titles truncate with an ellipsis rather than
-  overflow. The earlier hand-rolled scroll band (offset + chevron paging) was
-  removed: a `ScrollView` was rejected because it swallows clicks on some
-  macOS versions, and the scrolling itself was dropped in favour of
-  everything-visible.
+  once: no chevrons, no drag-scroll, no clipping. No country ships more than
+  eight stations, which is what keeps every button readable at full size.
+  Should a set ever reach nine or more, the band automatically switches to a
+  compact engraving (9 pt title / 6.5 pt genre, smaller indicator dot) and
+  long titles truncate with an ellipsis rather than overflow. The earlier
+  hand-rolled scroll band (offset + chevron paging) was removed: a plain
+  `ScrollView` was rejected because it swallows clicks on some macOS
+  versions, and the scrolling itself was dropped in favour of everything
+  visible.
 * **Contrast-aware ink.** Several skins invert (ivory cabinets, crimson
   lacquer), so engraved text colour is derived at runtime by WCAG contrast
   ratio (`Color.bestInk`) instead of being hard-coded per country. The first
