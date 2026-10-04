@@ -12,17 +12,6 @@
           "country": "New York",
           "stations": [
             {
-              "id": "us-new-york-walm-classic-vinyl-hd",
-              "name": "WALM Classic Vinyl HD",
-              "city": "New York",
-              "region": "NY",
-              "countryCode": "US",
-              "genre": "jazz & swing",
-              "bitrateKbps": 320,
-              "streamURL": "https://icecast.walmradio.com:8443/classic",
-              "frequency": 98.7
-            },
-            {
               "id": "us-new-york-q104-3-classic-rock",
               "name": "Q104.3 Classic Rock",
               "city": "New York",
@@ -99,28 +88,6 @@
               "bitrateKbps": 128,
               "streamURL": "https://liveaudio.lamusica.com/MIA_WCMQ_icy",
               "frequency": 92.3
-            },
-            {
-              "id": "us-miami-miami-beach-radio",
-              "name": "Miami Beach Radio",
-              "city": "Miami",
-              "region": "FL",
-              "countryCode": "US",
-              "genre": "hot latin",
-              "bitrateKbps": 128,
-              "streamURL": "https://streaming.radiostreamlive.com/miamibeachradio_devices",
-              "frequency": 97.3
-            },
-            {
-              "id": "us-miami-chilltrax",
-              "name": "Chilltrax",
-              "city": "Miami",
-              "region": "FL",
-              "countryCode": "US",
-              "genre": "chillout & edm",
-              "bitrateKbps": 128,
-              "streamURL": "https://streamssl.chilltrax.com/",
-              "frequency": 101.5
             }
           ]
         },
@@ -149,17 +116,6 @@
               "bitrateKbps": 128,
               "streamURL": "https://stream.kalx.berkeley.edu:8443/kalx-320.aac",
               "frequency": 90.7
-            },
-            {
-              "id": "us-san-francisco-deep-space-one",
-              "name": "Deep Space One",
-              "city": "San Francisco",
-              "region": "CA",
-              "countryCode": "US",
-              "genre": "ambient space",
-              "bitrateKbps": 128,
-              "streamURL": "https://ice2.somafm.com/deepspaceone-128-mp3",
-              "frequency": 103.7
             }
           ]
         }
