@@ -61,8 +61,7 @@ To install: `cp -R build/RetroWave.app /Applications/`
 | **POWER** | Toggles the set. Lit when on. (`⌘P`) |
 | **Volume** knob | Real volume, 0–100, drives `AVPlayer.volume`. |
 | **Bass / Treble / Tone** knobs | Rotate and hold state; cosmetic (`AVPlayer` exposes no EQ). |
-| **Station pushbuttons** | Click to tune; click the live station to toggle power. |
-| **◀ ▶ chevrons** | Page the station band (it also drags directly). |
+| **Station pushbuttons** | Click to tune; click the live station to toggle power. The row flexes to the cabinet width, so every station of the current country is visible at once. |
 | **Country buttons** | Switch skin — 0.6 s crossfade + a static crackle. |
 | **MINI paddle switch** (header) | Slides the cabinet into the 300×80 mini bar (`⇧⌘M`); the mini bar's expand glyph brings it back. |
 | **⌘] / ⌘[** | Next / previous station |

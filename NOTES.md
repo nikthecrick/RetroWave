@@ -184,10 +184,16 @@ Roughly a dozen candidate endpoints turned out to be dead or unusable and were
 
 ### Other judgement calls
 
-* **Station band scrolls.** The US skin carries 13 stations, too many for one
-  row of readable pushbuttons, so the band is drag-scrollable with chevron
-  paging. A plain `ScrollView` was rejected: it swallows clicks on some macOS
-  versions, so the scroll is hand-rolled with an offset and a clip.
+* **The station band fills the cabinet — no scrolling.** Buttons are
+  flex-width and stretch to fill the row, so every station is visible at
+  once: no chevrons, no drag-scroll, no clipping. Crowded sets (nine or more
+  stations — currently the US set with twelve) switch to a compact engraving
+  (9 pt title / 6.5 pt genre, smaller indicator dot) so they stay legible at
+  narrow button widths; long titles truncate with an ellipsis rather than
+  overflow. The earlier hand-rolled scroll band (offset + chevron paging) was
+  removed: a `ScrollView` was rejected because it swallows clicks on some
+  macOS versions, and the scrolling itself was dropped in favour of
+  everything-visible.
 * **Contrast-aware ink.** Several skins invert (ivory cabinets, crimson
   lacquer), so engraved text colour is derived at runtime by WCAG contrast
   ratio (`Color.bestInk`) instead of being hard-coded per country. The first
@@ -248,8 +254,7 @@ Roughly a dozen candidate endpoints turned out to be dead or unusable and were
 | POWER | Toggles the set on/off. Lit when on. |
 | Volume knob | Drag vertically, 0–100, mapped linearly to `AVPlayer.volume`. |
 | Bass / Treble / Tone knobs | Drag vertically. Cosmetic (see above). |
-| Station pushbuttons | Click to tune. Click the already-live station to toggle power. |
-| ◀ ▶ chevrons | Page the station band. The band also drags directly. |
+| Station pushbuttons | Click to tune. Click the already-live station to toggle power. The row flexes to fit the cabinet, so all stations are visible at once. |
 | Country buttons | Switch skin. Crossfades over 0.6 s, plays a static crackle. |
 | Globe badge | Decorative; drifts as a wire-frame globe. |
 | MINI paddle switch (header) | Slides the cabinet into the 300×80 mini bar (same as ⇧⌘M). The mini bar's small expand glyph brings the cabinet back — without it the only way out of mini mode would have been the menu. |
